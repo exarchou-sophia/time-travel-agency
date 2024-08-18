@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: rgb(124, 208, 208); */
+    background-color: darkgoldenrod;
+    color: #f0e68c;
+}
+
+h1,
+h2 {
+    color: indigo;
+}
+nav > ul > li {
+    color: indigo;
+}
