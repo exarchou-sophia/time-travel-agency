@@ -12,8 +12,17 @@ body {
 
 h1,
 h2 {
-    color: indigo;
+    color: navy;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+
+    gap: 10px;
 }
 nav > ul > li {
-    color: indigo;
+    color: navy;
+    list-style: none;
+    flex: 1 0 200px;
 }
