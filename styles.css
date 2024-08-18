@@ -6,22 +6,23 @@
 
 body {
     /* background-color: rgb(124, 208, 208); */
-    background-color: #023e73;
+    background-color: #F2F2F2;
     /* color: #3e848c; */
 }
 
 header {
-    background-color: #a69886;
+    background-color:#1BAFBF;
 }
 
-.header-hero {
+/* .header-hero {
     width: 100%;
     height: 500px;
-    object-fit: cover;
+    object-fit: cover; */
+    
 }
 h1,
 h2 {
-    color: #f2e0c9;
+    color: #F2CB07;
 }
 
 nav {
@@ -33,12 +34,12 @@ nav > ul {
     justify-content: center;
     align-items: end;
     text-align: end;
-    gap: 10px;
+    gap: 50px;
     /* margin: 8px 32px; */
 }
 
 nav > ul > li {
-    color: #ffae00;
+    color: #F2CB07;
     list-style: none;
 }
 /*;  #c2edf2; */
