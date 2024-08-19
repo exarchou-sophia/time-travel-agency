@@ -5,13 +5,12 @@
 }
 
 body {
-    /* background-color: rgb(124, 208, 208); */
     background-color: #45a29e;
     color: #c5c6c7;
 }
 
 header {
-    background-color: #1bafbf;
+    /* background-color: #1bafbf; */
 }
 
 /* .header-hero {
@@ -19,17 +18,14 @@ header {
     height: 500px;
     object-fit: cover; */
 
-h1,
-h2 {
-    color: #c5c6c7;
-    background-color: #1f2833;
-}
-
 nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
     display: flex;
     justify-content: center;
     background-color: #100c08;
-    padding-bottom: 20px;
+    padding: 30px;
 }
 
 nav ul {
@@ -37,26 +33,73 @@ nav ul {
     gap: 30px;
     background-color: #100c08;
     color: #66fcf1;
+    align-items: centerw;
 }
 
 nav ul li {
     /* margin: 0 15px; */
     list-style: none;
+    /* padding-top: ; */
 }
 
-/*;  #c2edf2; */
+h1,
+h2 {
+    color: #c5c6c7;
+    /* background-color: #1f2833; */
+    padding-bottom: 80px;
+}
+
+nav {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    /* border-radius: 16px; */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(5px);
+    /* border: 1px solid rgba(255, 255, 255, 0.3); */
+}
+
+section {
+    /* padding-top: 150px; */
+    background-image: url("images/70s-pexels-leonie-fahjen-20345-92866.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* opacity: 0.3; */
+}
+
+h2 {
+    align-self: flex-end;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+}
+
+.container {
+    display: flex;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    /* flex: 1, 0, 50px; */
+}
 
 aside {
     background-color: #1f2833;
-    color: #66fcf1;
+    color: #45a29e;
+    width: 30%;
+    padding: 2rem;
+    margin-right: 1rem;
+    justify-content: right;
 
-    justify-content: end;
-    align-items: flex-end;
-    flex-direction: column;
-    margin-left: auto;
+    /* flex-basis: 0, 0, auto; */
 }
-
-img {
-    width: 100%;
+.main-pic {
+    width: 80%;
     object-fit: cover;
+    padding: 60px;
+    opacity: 0.8;
 }
