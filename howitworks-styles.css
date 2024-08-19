@@ -1,0 +1,16 @@
+/* nav {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    background-color: chartreuse;
+}
+
+nav ul li {
+    /* margin: 0 15px; 
+    list-style: none;
+} */
