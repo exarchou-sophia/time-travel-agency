@@ -6,13 +6,15 @@
 nav {
     display: flex;
     justify-content: center;
-    background-color: blue;
+    background-color: #100c08;
+    padding-bottom: 20px;
 }
 
 nav ul {
     display: flex;
     gap: 30px;
-    background-color: chartreuse;
+    background-color: #100c08;
+    color: #66fcf1;
 }
 
 nav ul li {
@@ -22,7 +24,8 @@ nav ul li {
 
 h1 {
     padding: 20px;
-    background-color: brown;
+    background-color: #1f2833;
+    color: #c5c6c7;
 }
 .grid-container--1,
 .grid-container--2 {
@@ -33,6 +36,7 @@ h1 {
     justify-items: center;
     align-items: center;
     border-bottom: 5px solid;
+    background-color: #1f2833;
 }
 
 .grid-container--2 {
@@ -53,9 +57,20 @@ img {
 
 h2 {
     padding: 50px;
-    background-color: blueviolet;
+    background-color: #45a29e;
+    color: #c5c6c7;
 }
 
 h3 {
     font-style: italic;
+    color: #66fcf1;
 }
+
+/* 
+color palette:
+ #100C08 
+#1F2833
+#C5C6C7
+#66FCF1
+#45A29E
+*/
