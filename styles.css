@@ -6,8 +6,8 @@
 
 body {
     /* background-color: rgb(124, 208, 208); */
-    background-color: #f2f2f2;
-    /* color: #3e848c; */
+    background-color: #45a29e;
+    color: #c5c6c7;
 }
 
 header {
@@ -21,19 +21,22 @@ header {
 
 h1,
 h2 {
-    color: #f2cb07;
+    color: #c5c6c7;
+    background-color: #1f2833;
 }
 
 nav {
     display: flex;
     justify-content: center;
-    background-color: blue;
+    background-color: #100c08;
+    padding-bottom: 20px;
 }
 
 nav ul {
     display: flex;
     gap: 30px;
-    background-color: chartreuse;
+    background-color: #100c08;
+    color: #66fcf1;
 }
 
 nav ul li {
@@ -42,3 +45,18 @@ nav ul li {
 }
 
 /*;  #c2edf2; */
+
+aside {
+    background-color: #1f2833;
+    color: #66fcf1;
+
+    justify-content: end;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
