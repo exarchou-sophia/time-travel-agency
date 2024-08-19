@@ -6,40 +6,57 @@
 
 body {
     /* background-color: rgb(124, 208, 208); */
-    background-color: #F2F2F2;
-    /* color: #3e848c; */
+    background-color: #45a29e;
+    color: #c5c6c7;
 }
 
 header {
-    background-color:#1BAFBF;
+    background-color: #1bafbf;
 }
 
 /* .header-hero {
     width: 100%;
     height: 500px;
     object-fit: cover; */
-    
-}
+
 h1,
 h2 {
-    color: #F2CB07;
+    color: #c5c6c7;
+    background-color: #1f2833;
 }
 
 nav {
-    width: 100%;
-}
-
-nav > ul {
     display: flex;
     justify-content: center;
-    align-items: end;
-    text-align: end;
-    gap: 50px;
-    /* margin: 8px 32px; */
+    background-color: #100c08;
+    padding-bottom: 20px;
 }
 
-nav > ul > li {
-    color: #F2CB07;
+nav ul {
+    display: flex;
+    gap: 30px;
+    background-color: #100c08;
+    color: #66fcf1;
+}
+
+nav ul li {
+    /* margin: 0 15px; */
     list-style: none;
 }
+
 /*;  #c2edf2; */
+
+aside {
+    background-color: #1f2833;
+    color: #66fcf1;
+
+    justify-content: end;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
