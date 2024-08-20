@@ -77,6 +77,11 @@ h3 {
     line-height: 2.5;
 }
 
+li > a {
+    text-decoration: none;
+    color: #1f2833;
+}
+
 /* 
 color palette:
  #100C08 
